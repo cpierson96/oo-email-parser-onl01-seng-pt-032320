@@ -8,8 +8,8 @@ class EmailAddressParser
     @emails = emails
   end
 
-  def self.parse
-    email.split(" , ")
+  def parse
+    puts split_email = emails.split.collect{|address| address.split(" , ")}
 
   end
 
