@@ -9,7 +9,7 @@ class EmailAddressParser
   end
 
   def parse(CSV)
-    CSV.parse 
+    CSV.split(" , ")
 
   end
 
