@@ -8,8 +8,8 @@ class EmailAddressParser
     @emails = emails
   end
 
-  def parse(CSV)
-    CSV.split(" , ")
+  def parse(email)
+    email.split(" , ")
 
   end
 
