@@ -10,7 +10,7 @@ class EmailAddressParser
 
   def parse
     puts split_email = emails.split.collect{|address| address.split(" , ")}
-
+    returnArr
   end
 
 
