@@ -9,8 +9,8 @@ class EmailAddressParser
   end
 
   def parse
-    puts split_email = emails.split.collect{|address| address.split(" , ")}
-    returnArr = split_email.flatten.uniq 
+    puts split_email = emails.split.collect{|address| address.split(",")}
+    returnArr = split_email.flatten.uniq
   end
 
 
